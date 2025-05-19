@@ -1,6 +1,6 @@
 # Urban Haven Apartments - Landing Page
 
-![Project Screenshot](./) 
+![Project Screenshot](./screenshots/hero.png) 
 
 A responsive landing page for Urban Haven Apartments built with pure HTML and CSS, showcasing modern frontend development techniques.
 
@@ -24,7 +24,7 @@ A responsive landing page for Urban Haven Apartments built with pure HTML and CS
 
 | Mobile View | Desktop View |
 |-------------|--------------|
-| ![Mobile View](./screenshots/mobile-view.jpg) | ![Desktop View](./screenshots/desktop-view.jpg) |
+| ![Mobile View](./screenshots/rooms.png) | ![Desktop View](./screenshots/amenities.png) |
 
 ## Installation
 
