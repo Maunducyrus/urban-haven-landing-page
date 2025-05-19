@@ -308,6 +308,106 @@ body {
   font-size: 1rem;
 }
 
+/* contact section styles */
+.contact {
+  background-color: var(--primary-color-light);
+}
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.contact-info {
+  flex: 1 1 40%;
+}
+.contact-form {
+  flex: 1 1 50%;
+}
+.contact-method {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.contact-method-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary-color);
+  color: var(--color-gray-dark);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+.contact-method-details h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: var(--primary-color-dark);
+}
+.contact-method-details p {
+  font-size: 1rem;
+  color: var(--color-gray-main);
+}
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.social-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: var(--color-white-light);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.social-link:hover {
+  background-color: var(--primary-color-dark);
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-gray-dark);
+}
+.form-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid var(--color-gray-dark);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+.form-input:focus {
+  outline: none;
+  border-color: var(--primary-color-light);
+}
+textarea.form-input {
+  resize: vertical;
+  min-height: 150px;
+}
+.btn-submit {
+  background-color: var(--primary-color);
+  color: var(--color-white-light);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.btn-submit:hover {
+  background-color: var(--primary-color-dark);
+}
+
 
 
 
